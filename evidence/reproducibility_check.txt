@@ -1,0 +1,10 @@
+Three fresh Python subprocess runs; each process independently reloaded the original source CSV files.
+Python: 3.12.10
+Threshold: 20% (configurable; implementation default, not from case brief)
+Input rows: 2940 shipments; 10 notes
+shipment_records.csv SHA-256 before/after: 1a2b4d66c4dc694111ba37b966486b5b0650df9ec8687402f3434117b140f4b6 / 1a2b4d66c4dc694111ba37b966486b5b0650df9ec8687402f3434117b140f4b6
+context_notes.csv SHA-256 before/after: 875c57a896ac3dfac0f712f8865b287bb5d2bd5423d26e798297b74dce87e6dc / 875c57a896ac3dfac0f712f8865b287bb5d2bd5423d26e798297b74dce87e6dc
+run_1.csv SHA-256: bac900d7b03a2b871282627625b5dba4a44f2b5d4c167d874976b6c160c9f403
+run_2.csv SHA-256: bac900d7b03a2b871282627625b5dba4a44f2b5d4c167d874976b6c160c9f403
+run_3.csv SHA-256: bac900d7b03a2b871282627625b5dba4a44f2b5d4c167d874976b6c160c9f403
+Result: byte-identical.
